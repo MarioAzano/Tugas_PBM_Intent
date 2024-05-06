@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:gravity="center"
+    tools:context=".HomeActivity">
+
+    <EditText
+        android:id="@+id/EdtNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nama" />
+
+    <EditText
+        android:id="@+id/Edtalamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Alamat" />
+
+    <EditText
+        android:id="@+id/EdtHobi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Hobi" />
+
+    <Button
+        android:id="@+id/btnExplicit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pindah Activity" />
+</LinearLayout>
